@@ -13,6 +13,13 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 
+# Install Docker Engine
+sudo apt-get install \
+   ca-certificates \
+   curl \
+   gnupg \
+   lsb-release
+
 # Upgrading🔗
 docker-compose migrate-to-labels
 
