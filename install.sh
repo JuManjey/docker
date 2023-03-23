@@ -1,5 +1,5 @@
-# Install docker
 #!/bin/bash
+# Install docker
 sudo apt update &&
 sudo apt install wget -y &&
 wget -O get-docker.sh https://get.docker.com &&
